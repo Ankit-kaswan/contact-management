@@ -1,0 +1,31 @@
+# Ignore Python cache files
+app/__pycache__/
+app/*.py[cod]
+
+# Ignore environment files
+app/.env
+app/*.env
+
+# Ignore virtual environments
+app/venv/
+app/.venv/
+
+# Ignore logs and temp files
+app/*.log
+app/*.tmp
+
+# Ignore build artifacts
+app/build/
+app/dist/
+app/*.egg-info/
+app/*.out
+
+# Ignore IDE config files
+app/*.idea/
+app/.vscode/
+app/.DS_store
+
+
+# Ignore sensitive or unnecessary files
+app/secrets.json
+app/keys/
